@@ -32,5 +32,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
     tecla.onkeyup = function (){
         tecla.classList.remove('ativa');
     }
+    // digitar o "." 3 vezes em qualquer página no giithub faz com que o arquivo seja aberto em um editor vscode na web
+    // a tendência é começar a rodar esses códigos no cloud msm
 
 }
