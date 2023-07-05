@@ -54,4 +54,23 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
     // git restore --source 470150d app.js modifica o arquivo app.js do commit 470150d
     // depois diso precisa fazer um commit avisando q voltou a versão e colocar um push
 
+    // git add app.js adiciona o arquivo app.js para fazer o commit
+    // git commit app.js -m "mensagem" o commit deve ser feito dessa forma quando for adicionado um único arquivo
+
+    // git checkout -b desenvolvimento cria a branch desenvolvimento
+
+    // git switch main volta para a branch main
+
+    // git add contato.html adiciona a pagina contato.html
+
+    // git commit -m "mensagem" manda todos os arquivos em commit para a branch principal
+
+    // git push origin desenvolvimento manda as modificações para a branch de desenvolvimento, assim é criada uma nova branch de desenvolvimento no repositorio remoto que deve ser mergeada na principal
+
+    // git branch mostra a branch em que eu estou
+
+    // para mergear a branch principal tem q voltar para a branch main e escrever git merge desenvolvimento
+
+    // para finalizar as alterações com o merge deve-se usar o git push main 
+
 }
